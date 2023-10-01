@@ -1,0 +1,38 @@
+.galleryTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.galleryTitle h1{
+    color:#5a8b4b;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.MasonContainer{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 650px){
+    .galleryTitle h1{
+        font-size: 50px;
+
+    }
+    .underline{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 400px){
+    .galleryTitle h1{
+        font-size: 40px;
+        
+    }
+}
+@media (780px < width < 1015px){
+    .galleryTitle h1{
+        font-size: 70px;
+    }
+}

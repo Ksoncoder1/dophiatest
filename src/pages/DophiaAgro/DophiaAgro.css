@@ -1,0 +1,73 @@
+.DophiaHeader{
+    font-family: var(--font-base);
+    color: #5a8b4b;
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.DophiaText{
+    font-family: var(--font-base);
+    font-weight: normal;
+    font-size: 25px; 
+    line-height: 30.8px;
+    color: #888;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+.DophiaBtn{
+    color: #5a8b4b !important;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 25px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border-color: #29ab87;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+.DophiaBtn Link{
+    color: #5a8b4b;
+}
+/* .CustomButton{
+    color: #5a8b4b;
+} */
+.DophiaBtn:hover{
+    transform: scale(1.1);
+}
+.Dophia{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 450px){
+    .DophiaHeader{
+        font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 650px){
+    .DophiaHeader{
+        font-size: 50px;
+    }
+    .DophiaTextt{
+        font-size: 18px;
+    }
+    .ReadBtn{
+        font-size: 20px;
+    }
+    .underline{
+        width: 100px;
+    }
+  }
+  @media screen and (max-width: 780px){
+    .DophiaHeader{
+        font-size: 70px;
+    }
+  }

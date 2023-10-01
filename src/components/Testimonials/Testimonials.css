@@ -1,0 +1,117 @@
+.TestimonialContainer{
+    background: #ebefe4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TesmonialHeading{
+    color:#5a8b4b;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.TestimonyCards{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+
+}
+.TestimonyCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    /* position: relative; */
+}
+.TestimonyCardImg{
+    /* position: absolute; */
+    width: 400px;
+    height: 500px;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.TestimonyCardImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.TestimonyCardContent{
+    background: #2d3a59;
+    width: 500px;
+    height: 270px;
+    margin-right: -4rem;
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
+    /* transform: translateY(-50%); */
+    border-radius: 15px;
+    border: 1.5px solid #e1ad01;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.TestimonyCardContent p{
+    font-size: 10px;
+    line-height: 15px
+}
+.TestimonyCardContent h3{
+    font-size: 12px;
+    margin: 7px 0 3px;
+    color: #e1ad01;
+}
+
+@media screen and (max-width: 650px){
+    .TesmonialHeading{
+        font-size: 50px;
+    }
+    .underline{
+        width: 100px;
+    }
+    .TestimonyCards{
+        flex-direction: column;
+    }
+    .TestimonyCard{
+        width: 400px;
+        height: 450px;
+    }
+    .TestimonyCardContent{
+        height: 340px;
+    }
+}
+@media screen and (max-width: 400px){
+    .TesmonialHeading{
+        font-size: 40px;
+    }
+    .TestimonyCard{
+        width: 350px;
+        height: 510px;
+    }
+    .TestimonyCardContent{
+        height: 340px;
+    }
+    .TestimonyCardContent p{
+        font-size: 11px;
+        line-height: 12px
+    }
+}
+@media screen and (max-width: 780px){
+    .TesmonialHeading{
+        font-size: 70px;
+    }
+    .TestimonyCards{
+        flex-direction: column;
+    }
+}
+@media (780px < width < 1015px){
+    .TestimonyCards{
+        flex-direction: column;
+    }
+}

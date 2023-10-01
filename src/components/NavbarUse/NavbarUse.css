@@ -1,0 +1,80 @@
+
+.BgImg{
+    height: 30vh;
+    min-height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+.BgImg::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.CustomNavUse{
+    background: #5a8b4b;
+    padding-top: 0.1rem;
+    padding-bottom: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+.VisibleNav{
+    opacity: 1 !important;
+}
+.HiddenNav{
+    opacity: 0 !important;
+    pointer-events: none; /* Disable interactions with hidden Navbar */
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+}
+.imageContainer img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #5a8b4b;
+    border-radius: 50%;
+}
+.CustomNav{
+    margin-left: auto;
+    gap: 1rem;
+}
+.logotextDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logotext{
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    font-weight: 600;
+}
+.CustomNavUse{
+    background: transparent;
+}
+.bg-scroll {
+    background-color: #5a8b4b; 
+  }

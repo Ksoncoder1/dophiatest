@@ -1,0 +1,48 @@
+.MiniMilesHeading{
+    color:#5a8b4b;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.MiniMilesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MiniMilesText{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 22px; 
+    line-height: 30.8px;
+    color: #888;
+    margin-bottom: 1rem;
+    font-family: var(--font-base);
+}
+.MiniMilesContent{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 650px){
+    .MiniMilesHeading{
+        font-size: 50px;
+    }
+    .MiniMilesText{
+        font-size: 12px;
+    }
+    .underline{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .MiniMilesHeading{
+        font-size: 40px;
+    }
+    .MiniMilesText{
+        font-size: 10px;
+    }
+}

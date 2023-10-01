@@ -1,0 +1,65 @@
+/* .Card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+} */
+.ModelCards{
+    height: 80px;
+    width: 50px;
+}
+.Card {
+    /* Adjust or remove flex-related properties as needed */
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    /* Other styles for your cards */
+} 
+.CardImg{
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.CardImg img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.CardBody{
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.CardBody h2{
+    text-align: center;
+}
+.CardBody p{
+    text-align: center;
+}
+.CardTitle{
+    font-size: 1.25rem;
+    line-height: 1.333;
+    font-weight: 700;
+
+}
+.CardText{
+    margin-top: 0.75rem;
+    line-height: 1.5;
+}
+.CardContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

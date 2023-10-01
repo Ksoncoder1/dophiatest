@@ -1,0 +1,103 @@
+.ContactCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background: #4E4E4E;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+.ContactCardContainer h2{
+    color: #e1ad01;
+    font-family: var(--font-base);
+    font-size: 32px;
+}
+.contactForm{
+    width: 350px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    flex: 2;
+    /* width: 165px; */
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between stacked elements */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e1ad01;
+    font-family: var(--font-base);
+    font-size: 15px;
+}
+/* textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e1ad01;
+} */
+.myTextArea{
+    /* width: 280px; */
+    height: 100px;
+}
+form button{
+    display: block;
+    margin: auto;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background: #e1ad01;
+    font-family: var(--font-base);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 650px){
+    .ContactCardContainer{
+        width: 300px;
+    }
+    .contactForm{
+        width: 200px;
+    }
+    .ContactCardContainer h2{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    .ContactCardContainer{
+        width: 200px;
+        /* height: 280px; */
+    }
+     .contactForm{
+        width: 170px;
+    }
+    .ContactCardContainer h2{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    /* input[type="text"],
+    input[type="email"],
+    textarea{
+        flex: 2;
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #e1ad01;
+    }
+    .myTextArea{
+        height: 60px;
+    } */
+    
+}
+@media (780px < width < 1015px){
+    .ContactCardContainer{
+        width: 250px;
+    }
+    .contactForm{
+        width: 200px;
+    }
+} 

@@ -1,0 +1,67 @@
+.Partners{
+    background: #ebefe4;
+}
+/* .PartnersContainer{
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.PartnersContainer{
+    margin-top: 2rem;
+}
+/* .PartnersContainer{
+    width: 9rem;
+} */
+.slick-slide div{
+    margin: 0 1rem;
+}
+.slick-next, .slick-prev {
+    background: #5a8b4b !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #5a8b4b !important;
+}
+.slick-dots li button:before{
+    color: #e1ad01 !important;
+    font-size: 0.6rem !important;
+    top: 1rem !important;
+}
+.slick-next{
+    right: -50px !important;
+}
+.ImgCont{
+    /* width: 9rem; */
+    width: 7rem;
+    height: 11rem;
+}
+.ImgCont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.PartnersTitle{
+    text-align: center;
+    font-family: var(--font-base);
+    color: #5a8b4b;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 90px;
+}
+
+@media screen and (max-width: 650px){
+    .PartnersTitle{
+        font-size: 50px;
+    }
+    .underline{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 780px){
+    .PartnersTitle{
+        font-size: 70px;
+    }
+}

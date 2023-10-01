@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Achievements from './pages/Achievements/Achievements';
+import Gallery from './pages/Gallery/Gallery';
+import Goalsalign from './pages/Goalsalign/Goalsalign';
+import Missing from './pages/Missing/Missing';
+import 'animate.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <main className="App">
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/goals' element={<Goalsalign />} />
+          <Route exact path='/achievements' element={<Achievements />} />
+          <Route exact path='/gallery' element={<Gallery />} />
+          <Route path='*' element={<Missing />} />
+        </Routes>
+      </main>
+    </Router>
   );
 }
 

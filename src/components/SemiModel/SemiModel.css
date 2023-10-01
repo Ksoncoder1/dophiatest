@@ -1,0 +1,33 @@
+.SemiModel{
+    width: 100%;
+}
+.SemiHeader{
+    font-family: var(--font-base);
+    color: #5a8b4b;;
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+.AcContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 650px){
+    .SemiHeader{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 780px){
+    .SemiHeader{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 470px){
+    .SemiHeader{
+        font-size: 40px;
+    }
+}

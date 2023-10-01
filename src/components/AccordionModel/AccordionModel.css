@@ -1,0 +1,80 @@
+.accordion{
+    margin-top: 2rem;
+    border: none;
+    width: 70%;
+}
+.AccordContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+
+  
+
+}
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(28, 199, 65, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* .accordionItem.expanded{
+    box-shadow: 0px 23px 21px -8px rgba(25, 193, 13, 0.25);
+    border-radius: 6px;
+} */
+.accordionPanel{
+    box-shadow: 0px 23px 21px -8px rgba(25, 193, 13, 0.25);
+    border-radius: 6px;
+}
+.accordionButton{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.DropDIncon{
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.HeadTxt{
+    color: #e1ad01;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: var(--font-base);
+}
+.PTxt{
+    font-size: 1.8rem;
+    color: #999;
+    font-family: var(--font-base);
+}
+
+@media screen and (max-width: 650px){
+    .accordion{
+        width: 100%;
+    }
+    .accordionButton{
+        row-gap: 0.2rem;
+    }
+    .accordionItem{
+        margin-bottom: 10px;
+    }
+}

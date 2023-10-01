@@ -1,0 +1,138 @@
+.Mission{
+    background: #ebefe4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.MiHeading h1{
+    color:#5a8b4b;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.MvCards{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.CadContainer{
+    width: 450px;
+    height: 600px;
+}
+.CadContainer:hover > .Cad{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Cad{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.CadFront, .CadBack{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.CadFront img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
+
+}
+.CadBack{
+    background: #5a8b4b;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+/* .CustomButton{
+    color: #5a8b4b;
+} */
+.VisionBtnDiv{
+    margin-top: 2rem;
+}
+.ReadBtn{
+    background: transparent;
+    color: #5a8b4b;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 25px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border-color: #29ab87;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+.ReadBtn:hover{
+    transform: scale(1.1);
+}
+.CadH{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 30px;
+    
+}
+.CadT{
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 650px){
+    .MiHeading h1{
+        font-size: 50px;
+    }
+    .MvCards{
+        flex-direction: column;
+    }
+    .CadContainer{
+        width: 400px;
+        height: 500px;
+    }
+    .ReadBtn{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .CadContainer{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 780px){
+    .MvCards{
+        flex-direction: column;
+    }
+    .MiHeading h1{
+        font-size: 70px;
+    }
+}
+@media (780px < width < 1015px){
+    .CadContainer{
+        width: 380px;
+        height: 530px;
+    }
+    .MvCards{
+        gap: 1rem;
+    }
+}
