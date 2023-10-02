@@ -19,7 +19,7 @@ const Footer = () => {
                     <p><FaLocationDot size={35} className='mailicon' /> P.O. Box 137-40223 Kadongo, Kenya</p>
                     <p>
                         <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
-                            <BsFacebook size={35} className='fbicon' /> 
+                            <p><BsFacebook size={35} className='fbicon' /> Dophia Agroforestry</p>
                         </a>
                     </p>
                 </div>

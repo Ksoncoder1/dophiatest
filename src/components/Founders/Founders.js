@@ -61,7 +61,7 @@ const Founders = () => {
                             <img src={benter} alt="benterimg" />
                         </div>
                         <div className='main'>
-                            <h2>Benter Awour</h2>
+                            <h2>Benter Awuor</h2>
                             <p>Operations & Finance Lead</p>
                         </div>
                     </div>
