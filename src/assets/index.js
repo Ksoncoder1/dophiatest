@@ -10,9 +10,12 @@ import community from './community.jpeg';
 import collectdata from './data.jpeg';
 import navimg from './navimg.jpeg';
 import hoffman from './hoffman.jpeg';
+import hoffman2 from './hoffman2.jpeg';
 import foundersbg from './foundersbg.jpeg'
 import phenny from './phenny.jpeg';
+import phenny2 from './phenny2.jpeg';
 import benter from './Benter.jpeg';
+import benter2 from './Benter2.jpeg';
 import carren from './Carren.jpeg';
 import partnerlogo1 from './partnerlogo1.jpeg'
 import partnerlogo2 from './partnerlogo2.jpeg'
@@ -65,10 +68,13 @@ export {
     community, 
     collectdata, 
     navimg, 
-    hoffman, 
+    hoffman,
+    hoffman2, 
     foundersbg, 
-    phenny, 
-    benter, 
+    phenny,
+    phenny2, 
+    benter,
+    benter2, 
     carren,
     partnerlogo1,
     partnerlogo2,

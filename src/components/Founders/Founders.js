@@ -1,5 +1,5 @@
 import React from 'react';
-import { benter, carren, foundersbg, hoffman, phenny } from '../../assets';
+import { benter, benter2, carren, foundersbg, hoffman, hoffman2, phenny, phenny2 } from '../../assets';
 import './Founders.css';
 
 const Founders = () => {
@@ -16,7 +16,7 @@ const Founders = () => {
                             <img src={foundersbg} alt="foundersimg" />
                         </div>
                         <div className='img2'>
-                            <img src={phenny} alt="phennyimg" />
+                            <img src={phenny2} alt="phennyimg" />
                         </div>
                         <div className='main'>
                             <h2>Phenny Omondi</h2>
@@ -30,7 +30,7 @@ const Founders = () => {
                             <img src={foundersbg} alt="foundersimg" />
                         </div>
                         <div className='img2'>
-                            <img src={hoffman} alt="hoffmanimg" />
+                            <img src={hoffman2} alt="hoffmanimg" />
                         </div>
                         <div className='main'>
                             <h2>Hoffman Owage</h2>
@@ -58,7 +58,7 @@ const Founders = () => {
                             <img src={foundersbg} alt="foundersimg" />
                         </div>
                         <div className='img2'>
-                            <img src={benter} alt="benterimg" />
+                            <img src={benter2} alt="benterimg" />
                         </div>
                         <div className='main'>
                             <h2>Benter Awuor</h2>
