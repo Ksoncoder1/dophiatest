@@ -19,11 +19,12 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 220px;
     border-radius: 50%;
     border: 5px solid white;
     margin-top: -80px;
+    /* object-fit: cover; */
 
 
 }
@@ -38,9 +39,9 @@
 }
 .main h2{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #e1ad01;
     font-weight: 700;
+    font-family: var(--font-base);
 }
 .main p{
     padding: 10px;
@@ -70,8 +71,8 @@
         width: 100%;
     }
     .img2 img{
-        width: 100px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
     }
   }
 @media screen and (max-width: 650px){
@@ -87,11 +88,11 @@
         font-size: 70px;
     }
     .img1 img{
-        height: 170px;
+        height: 200px;
         width: 100%;
     }
     .img2 img{
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 195px;
     }
 }
